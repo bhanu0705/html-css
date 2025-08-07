@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    background-color: #d0eaf1;
+    font-family: Arial, sans-serif;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+/* Signup Box Styling */
+.signup-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Signup Button Styling */
+.signup-box button {
+    background-color: lightgreen;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.signup-box button:hover {
+    background-color: green;
+}
+
+/* Label and Input Styling */
+.signup-label label {
+    color: gray;
+}
+
+.signup-label input {
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    padding: 5px;
+}
+
+.signup-label div {
+    margin: 5px 0 10px 0;
+}
+
+/* ============================== */
+/* ===== Login Page Styles ===== */
+/* ============================== */
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 15px;
+}
+
+.login-box input {
+    width: 95%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+.login-box button {
+    background-color: lightgreen;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: green;
+}
