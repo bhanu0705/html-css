@@ -1,0 +1,25 @@
+ body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff4f4;
+        }
+
+.thank-you {
+            font-size: 2em;
+            font-weight: bold;
+            padding: 20px 30px;
+            border-radius: 20px;
+            background-color:rgb(255,251,246);
+            box-shadow: 0 4px 10px rgba(236,68,68,0.5);
+            text-align: center;
+        }
+
+ @media (max-width: 600px) {
+            .thank-you {
+                font-size: 1.5em;
+                padding: 15px 30px;
+            }
+        }
